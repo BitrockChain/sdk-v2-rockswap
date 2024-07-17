@@ -1,20 +1,17 @@
 {
   "name": "@bitrockchain/sdk-v2-rockswap",
   "license": "MIT",
-  "version": "3.1.1",
+  "version": "3.0.4",
   "description": "🛠 An SDK for building applications on top of Uniswap.",
-  "main": "dist/index.js",
+  "main": "dist/index",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Uniswap/uniswap-sdk.git"
-  },
+  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "rockswap",
+    "brock"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -58,10 +55,5 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  },
-  "bugs": {
-    "url": "https://github.com/Uniswap/uniswap-sdk/issues"
-  },
-  "homepage": "https://github.com/Uniswap/uniswap-sdk#readme",
-  "author": ""
+  }
 }
