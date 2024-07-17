@@ -55,8 +55,5 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  },
-  "publishConfig": {
-  "@bitrockchain:registry": "https://npm.pkg.github.com"
-}
+  }
 }
