@@ -20,7 +20,7 @@ var IUniswapV2Pair = _interopDefault(require('@uniswap/v2-core/build/IUniswapV2P
 var _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 1] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 7171] = "MAINNET";
   ChainId[ChainId["ROPSTEN"] = 3] = "ROPSTEN";
   ChainId[ChainId["RINKEBY"] = 4] = "RINKEBY";
   ChainId[ChainId["G\xD6RLI"] = 5] = "G\xD6RLI";
@@ -38,8 +38,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0x6Bd5A1A63ffF10De3c6B7C667040E9AE1B47fDf2';
-var INIT_CODE_HASH = '0xaf88dd15a55596feb9d67243c727bfd6144af12453963809bc91f0cfcf8241bc';
+var FACTORY_ADDRESS = '0x02c73ecb9B82e545E32665eDc42Ae903F8AA86a9';
+var INIT_CODE_HASH = '0x9331117f58e9fb28ef5c2395c83b6f38e19235fb9eb42ed3dc4894604f5ad551';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
